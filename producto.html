@@ -4,21 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pet Necklace</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #000000; /* negro */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #00a000; /* verde fuerte */
+      color: white;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      color: #00a000; /* verde fuerte */
+      margin-top: 30px;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    th, td {
+      border: 1px solid #00a000;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #00a000;
+      color: white;
+    }
+
+    video {
+      display: block;
+      margin: 30px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00000033; /* sombra negra suave */
+    }
+
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #00a000;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    a:hover {
+      background-color: #006600; /* verde más oscuro */
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 14px;
+      color: #000000; /* negro */
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Pet Necklace</h1>
-<p>Descubre el collar inteligente que transforma el cuidado de tu mascota. Equipado con tecnología avanzada, este dispositivo monitorea la ubicación en tiempo real mediante GPS, rastrea la actividad física y emite alertas ante comportamientos inusuales o si tu mascota se aleja de zonas seguras.</p>
-<br>
-<br>
-<p>Conectado a una app móvil intuitiva, podrás recibir notificaciones al instante, revisar el historial de movimientos, establecer cercas virtuales, y llevar un registro del bienestar de tu mascota
-</p>
+  <header>
+    <h1>Pet Necklace</h1>
+  </header>
 
-<h1>Tabla de Tallas</h1>
+  <p>
+    Descubre el collar inteligente que transforma el cuidado de tu mascota. Equipado con tecnología avanzada, este dispositivo monitorea la ubicación en tiempo real mediante GPS, rastrea la actividad física y emite alertas ante comportamientos inusuales o si tu mascota se aleja de zonas seguras.
+  </p>
+
+  <p>
+    Conectado a una app móvil intuitiva, podrás recibir notificaciones al instante, revisar el historial de movimientos, establecer cercas virtuales y llevar un registro del bienestar de tu mascota.
+  </p>
 
   <h2>Tabla de Tallas</h2>
 
-  <table border="1" cellpadding="10" cellspacing="0">
+  <table>
     <thead>
       <tr>
         <th>Talla</th>
@@ -44,33 +123,29 @@
       </tr>
     </tbody>
   </table>
-<br>
-<br>
-<h3>Características del producto:</h3>
-<p>GPS en tiempo real para ubicación precisa.
 
-
- Monitoreo de salud y actividad (pasos, calorías, descanso).
-
-
- Sensores de temperatura para evitar golpes de calor o frío.
-
-
- Conectividad vía app móvil (iOS y Android).
-
-
-Batería de larga duración y resistente al agua.
-</p> 
+  <h3>Características del producto</h3>
+  <p>
+    • GPS en tiempo real para ubicación precisa.<br>
+    • Monitoreo de salud y actividad (pasos, calorías, descanso).<br>
+    • Sensores de temperatura para evitar golpes de calor o frío.<br>
+    • Conectividad vía app móvil (iOS y Android).<br>
+    • Batería de larga duración y resistente al agua.
+  </p>
 
   <video width="640" height="360" autoplay muted controls loop>
     <source src="20250710_2310_video.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de video.
   </video>
 
+  <div>
+    <a href="index.html">Página Principal</a>
+    <a href="mision.html">Misión, Visión y Valores</a>
+  </div>
 
-  <br>
-  <a href="index.html">Pagina horiginal</a>
-  <br>
-  <a href="mision.html">Mision vision y valores</a>
+  <footer>
+    &copy; 2025 Inopet Company. Todos los derechos reservados.
+  </footer>
+
 </body>
 </html>
