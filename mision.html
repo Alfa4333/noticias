@@ -6,8 +6,8 @@
   <title>Misión, Visión y Valores</title>
   <style>
     body {
-      background-color: #ffffff; /* fondo blanco */
-      color: #000000; /* texto negro */
+      background-color: #ffffff;
+      color: #000000;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -15,14 +15,38 @@
     }
 
     header {
-      background-color: #00a000; /* verde fuerte */
+      background-color: #00a000;
       color: white;
       padding: 20px 0;
     }
 
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .header-content img {
+      width: 60px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00000033;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
     h2 {
-      color: #00a000; /* verde fuerte */
+      color: #00a000;
       margin-top: 30px;
+    }
+
+    h3 {
+      color: #00a000;
     }
 
     p, ul {
@@ -34,17 +58,11 @@
       line-height: 1.6;
     }
 
-    img {
-      margin: 30px 0;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #00000033; /* sombra negra suave */
-    }
-
     a {
       display: inline-block;
       margin: 10px;
       padding: 10px 20px;
-      background-color: #00a000; /* verde fuerte */
+      background-color: #00a000;
       color: white;
       text-decoration: none;
       border-radius: 5px;
@@ -52,23 +70,76 @@
     }
 
     a:hover {
-      background-color: #006600; /* verde más oscuro */
+      background-color: #006600;
+    }
+
+    .mision-vision-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 30px auto;
+      max-width: 1000px;
+      padding: 0 20px;
+      text-align: left;
+    }
+
+    .mision-vision-container img {
+      width: 180px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00000033;
+    }
+
+    .mision-vision-text {
+      max-width: 600px;
     }
 
     footer {
       margin-top: 30px;
       padding: 10px;
       font-size: 14px;
-      color: #000000; /* negro */
+      color: #000000;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Valores, Misión y Visión</h1>
+    <!-- Título y logo juntos -->
+    <div class="header-content">
+      <img src="img/2dbe3bca-6df0-4961-9ed0-99237f2df3ee.jpg" alt="Logo Inopet" width="200">
+      <h1>Misión, Visión y Valores</h1>
+    </div>
   </header>
 
+  <!-- Botones -->
+  <div>
+    <a href="index.html">Página Principal</a>
+    <a href="producto.html">Pet Necklace</a>
+    <a href="cultura.html">Nuestra Cultura Organizacional</a>
+  </div>
+
+  <!-- Sección con imagen al lado -->
+  <h2 style="text-align: center;">Misión y Visión</h2>
+  <div class="mision-vision-container">
+   
+    <!-- Textos -->
+    <div class="mision-vision-text">
+      <h3>Misión</h3>
+      <p>
+        Mejorar la calidad de vida de las mascotas y sus cuidadores mediante tecnología inteligente, brindando seguridad, bienestar y conexión constante entre ambos.
+      </p>
+
+      <h3>Visión</h3>
+      <p>
+        Ser líderes en innovación tecnológica para el cuidado y la conexión con las mascotas, ofreciendo soluciones inteligentes que mejoren su bienestar, seguridad y la tranquilidad de sus dueños en todo momento.
+      </p>
+    </div>
+  </div>
+
+  <!-- Sección de valores -->
   <h2>Valores</h2>
   <ul>
     <li><strong>Compromiso con el bienestar animal:</strong> Priorizar la seguridad, comodidad y salud de los perros en el diseño y fabricación de los collares.</li>
@@ -77,23 +148,7 @@
     <li><strong>Responsabilidad ambiental:</strong> Usar prácticas sostenibles como materiales reciclables o biodegradables.</li>
   </ul>
 
-  <h2>Misión</h2>
-  <p>
-    Mejorar la calidad de vida de las mascotas y sus cuidadores mediante tecnología inteligente, brindando seguridad, bienestar y conexión constante entre ambos.
-  </p>
-
-  <h2>Visión</h2>
-  <p>
-    Ser líderes en innovación tecnológica para el cuidado y la conexión con las mascotas, ofreciendo soluciones inteligentes que mejoren su bienestar, seguridad y la tranquilidad de sus dueños en todo momento.
-  </p>
-
-  <img src="img/images.jpg" alt="Mascotas felices" width="300">
-
-  <div>
-    <a href="index.html">Página Principal</a>
-    <a href="producto.html">Pet Necklace</a>
-  </div>
-
+ 
   <footer>
     &copy; 2025 Inopet Company. Todos los derechos reservados.
   </footer>
